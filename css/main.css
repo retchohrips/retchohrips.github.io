@@ -1,3 +1,4 @@
+/* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 
 * {
@@ -41,7 +42,7 @@ main {
     margin: 15px auto;
 }
 
-#last {
+.main-nav li:last-of-type {
     margin: 0px auto;
 }
 
@@ -66,6 +67,7 @@ main {
     display: block;
 }
 
+/* Desktop-Only */
 @media screen and (min-width: 768px) {
     main {
         position: relative;
